@@ -6,6 +6,10 @@ app.get("/", (req, res) => {
   res.send("Server del mio blog");
 });
 
+app.get("/post", (req, res) => {
+  res.json(posts);
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
