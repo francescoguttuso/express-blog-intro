@@ -30,3 +30,5 @@ const posts = [
     tags: ["torta", "dolci", "tradizione"],
   },
 ];
+
+module.exports = posts;

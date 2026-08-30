@@ -1,4 +1,5 @@
 const express = require("express");
+const posts = require("./data/posts");
 const app = express();
 const port = 3000;
 
